@@ -1,0 +1,44 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "protractor": "./node_modules/.bin/protractor Conf.js",
+    "test": "ConvertedJSFiles",
+    "tsc": "tsc",
+    "webdriver-start": "./node_module/.bin/webdriver-manager start",
+    "wrbdriver-update": "./node_module/.bin/webdriver-manager update"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "keywords": [
+    "protractor",
+    "Typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.3.7",
+    "@types/jasminewd2": "^2.0.6",
+    "@types/mocha": "^5.2.5",
+    "adal-node": "^0.1.28",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "jasmine-data-provider": "^2.2.0",
+    "jasminewd2": "^2.2.0",
+    "mocha": "^5.2.0",
+    "protractor": "^5.4.2",
+    "request": "^2.88.0",
+    "require": "^2.4.20",
+    "should": "^13.2.3",
+    "supertest": "^3.4.1",
+    "protractor-beautiful-reporter": "^1.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
+}
